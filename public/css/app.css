@@ -1,0 +1,132 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body {
+    background-color: #00162c;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    position: absolute;
+    z-index: 1;
+    margin-top: -98px;
+    margin-left: 20px;
+}
+
+.all {
+    background: rgb(57, 57, 57);
+    background: linear-gradient(120deg, rgba(57, 57, 57, 1) 25%, rgba(22, 11, 11, 1) 75%);
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 60px -40px white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.colmun {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+input {
+    width: 360px;
+    height: 120px;
+    padding: 30px;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px 10px 0 0;
+    /* font-family: 'DotGothic16'; */
+    letter-spacing: 5px;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.style {
+    padding: 25px 45px;
+    font-size: 30px;
+    color: white;
+    background: none;
+    border: none;
+}
+
+.style:active {
+    background-color: rgba(0, 0, 0, 0.403);
+}
+
+.clear {
+    color: rgba(255, 255, 255, 0.272);
+    font-size: 20px;
+}
+
+.equal {
+    color: white;
+    background: rgb(255, 1, 33);
+    background: linear-gradient(72deg, rgba(255, 1, 33, 1) 25%, rgba(255, 151, 51, 1) 75%);
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 0 0 0 10px;
+}
+
+.equal:active {
+    background: linear-gradient(72deg, rgba(255, 1, 35, 0.673) 30%, rgba(255, 150, 51, 0.742) 80%);
+
+}
+
+.ops {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0 0 10px 0;
+}
+
+.op-style {
+    width: 90px;
+    height: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+}
+
+.op-style:active {
+    background-color: rgba(0, 0, 0, 0.403);
+    color: white;
+}
